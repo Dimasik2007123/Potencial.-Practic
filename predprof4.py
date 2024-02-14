@@ -13,9 +13,9 @@ def readfile(namefile):
 
 def password(spaceship):
     '''
-    Making password
-    :param name: str, ship information
-    :return: str, password
+    Создание пароля
+    :param name: массив, массив данных о корабле
+    :return: строка, пароль
     '''
     pa=''
     f3=spaceship[1][:3]
