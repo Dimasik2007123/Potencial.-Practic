@@ -13,9 +13,9 @@ def readfile(namefile):
 
 def repl(spaceships):
     '''
-    Replace wrong coordinates to correct
-    :param spaceships: array, array of spaceships
-    :return: array, array of spaceships
+    Записывает новые данные в новый файл
+    :param spaceships: массив, массив данных о космических кораблях
+    :return: массив, массив данных о космических кораблях
     '''
     for i in range(1,101):
         a=spaceships[i][2].split()
