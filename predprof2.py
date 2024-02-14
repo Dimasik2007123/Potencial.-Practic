@@ -12,5 +12,10 @@ def readfile(namefile):
     return spaceships
 
 def quicksort(spaceships):
+    '''
+    Быстрая сортировка массива данных
+    :param: массив, массив данных о кораблях
+    :return: массив, массив данных о кораблях, отсортированный
+    '''
     L=0
-    R=len(space)
+    R=len(spaceships)
